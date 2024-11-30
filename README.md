@@ -9,7 +9,7 @@ Este proyecto es una implementación básica de una aplicación similar a Instag
 El proyecto está organizado en las siguientes carpetas principales:  
 
 - **instagram/**  
-  Contiene los templates HTML utilizados para renderizar las vistas.  
+  Contiene los templates HTML utilizados para renderizar las vistas, vistas, modelos y urls generales.  
 - **posts/**  
   Gestor de publicaciones. Incluye modelos y vistas relacionadas con las publicaciones de los usuarios.  
 - **profiles/**  
@@ -29,28 +29,30 @@ Para instalar las dependencias del proyecto:
 
 ```bash
 pip install -r requirements.txt
+```
 
 ---
 
 ## Instalación y Configuración
-Clona el repositorio:
 
+### Clona el repositorio:
 ```bash
 git clone https://github.com/tu_usuario/InstagramConDjango.git
 cd InstagramConDjango
-Crea y aplica migraciones:
-
+```
+###Crea y aplica migraciones:
 ```bash
 python manage.py makemigrations
 python manage.py migrate
-Crea un superusuario:
-
+```
+### Crea un superusuario:
 ```bash
 python manage.py createsuperuser
-Inicia el servidor de desarrollo:
-
+```
+### Inicia el servidor de desarrollo:
 ```bash
 python manage.py runserver
+```
 Accede a la aplicación en tu navegador: http://127.0.0.1:8000/
 
 ---
@@ -85,10 +87,9 @@ Este proyecto incluye tests para garantizar el correcto funcionamiento de las fu
 
 ### Ejecución de Tests
 Para ejecutar los tests, utiliza el siguiente comando:
-
 ```bash
 python manage.py test
-
+```
 Se probarán los modelos, vistas y funcionalidades principales de la aplicación.
 
 ---
